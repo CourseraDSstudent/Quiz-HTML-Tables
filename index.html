@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <div class="flex-parent">
+        <table>
+            <tr>
+                <td colspan="4">heading</td>
+                <td>a4</td>
+                <td>a5</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="3">bcd1</td>
+                <td>b2</td>
+                <td>b3</td>
+                <td>b4</td>
+                <td>b5</td>
+            </tr>
+            <tr>
+                <td>c2</td>
+                <td colspan="2">c3,4</td>
+                <td rowspan="2">cd5</td>
+            </tr>
+            <tr>
+                <td>d2</td>
+                <td>d3</td>
+                <td>d4</td>
+            </tr>
+            <tr>
+                <td>e1</td>
+                <td colspan="5">e2~5</td>
+            </tr>
+        </table>
+    </div>
 </body>
+
 </html>

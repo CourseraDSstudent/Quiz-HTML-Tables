@@ -1,1 +1,29 @@
 /* html-table */
+
+html, 
+body {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+table {
+    display: flex;
+    border: 1px solid black;
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    font-weight:500;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px 10px ;
+}
